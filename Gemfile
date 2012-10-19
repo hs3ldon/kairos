@@ -8,7 +8,7 @@ gem 'rails', '3.2.8'
 # for deplayment on Heroku     
 gem "heroku"                   
 group :development, :test do   
-  gem 'sqlite3'                
+  gem 'sqlite3-ruby', '1.3.2' 
 end
 group :production do           
   gem 'pg'                     
